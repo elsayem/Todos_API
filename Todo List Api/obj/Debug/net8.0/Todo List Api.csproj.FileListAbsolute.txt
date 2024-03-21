@@ -1,0 +1,33 @@
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\appsettings.Development.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\appsettings.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Todo List Api.exe
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Todo List Api.deps.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Todo List Api.runtimeconfig.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Todo List Api.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Todo List Api.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.csproj.AssemblyReference.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.AssemblyInfoInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.AssemblyInfo.cs
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.csproj.CoreCompileInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.MvcApplicationPartsAssemblyInfo.cs
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.MvcApplicationPartsAssemblyInfo.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.sourcelink.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets.build.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets.development.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets\msbuild.Todo List Api.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Todo List Api.props
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Todo List Api.props
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Todo List Api.props
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\scopedcss\bundle\Todo List Api.styles.css
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.csproj.CopyComplete
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\refint\Todo List Api.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\Todo List Api.genruntimeconfig.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\Todo List Api\obj\Debug\net8.0\ref\Todo List Api.dll
