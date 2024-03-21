@@ -1,0 +1,12 @@
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\bin\Debug\net8.0\TodoList.BL.deps.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\bin\Debug\net8.0\TodoList.BL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\bin\Debug\net8.0\TodoList.BL.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.AssemblyInfoInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.AssemblyInfo.cs
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.csproj.CoreCompileInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.sourcelink.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\refint\TodoList.BL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\TodoList.BL.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.PL\obj\Debug\net8.0\ref\TodoList.BL.dll
