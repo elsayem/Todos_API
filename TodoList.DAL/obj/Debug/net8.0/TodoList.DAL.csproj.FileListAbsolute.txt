@@ -1,0 +1,15 @@
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\bin\Debug\net8.0\TodoList.DAL.deps.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\bin\Debug\net8.0\TodoList.DAL.runtimeconfig.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\bin\Debug\net8.0\TodoList.DAL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\bin\Debug\net8.0\TodoList.DAL.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.csproj.AssemblyReference.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.AssemblyInfoInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.AssemblyInfo.cs
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.csproj.CoreCompileInputs.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.sourcelink.json
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\refint\TodoList.DAL.dll
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.pdb
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\TodoList.DAL.genruntimeconfig.cache
+E:\Software Engineering\ITI\.Net\N - Tier Projects\Todo-Api\Todo List Api\TodoList.DAL\obj\Debug\net8.0\ref\TodoList.DAL.dll
