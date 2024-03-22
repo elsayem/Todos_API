@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using TodoList.BL.Survices;
 using TodoList.DAL.Data.Context;
 using TodoList.DAL.Repos;
 
@@ -23,6 +24,7 @@ namespace Todo_List_Api
 
             //register survice to implement DI:
             builder.Services.AddScoped<ITodoRepo, TodoRepo>();
+            builder.Services.AddScoped<ITodoSurvice, TodoSurvice>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

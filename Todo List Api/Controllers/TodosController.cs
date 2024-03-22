@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TodoList.BL.DTOs;
+using TodoList.BL.Survices;
+using TodoList.DAL.Data.Models;
 using TodoList.DAL.Repos;
 
 namespace Todo_List_Api.Controllers
@@ -8,8 +11,8 @@ namespace Todo_List_Api.Controllers
     [ApiController]
     public class TodosController : ControllerBase
     {
-        private readonly ITodoRepo db;
-        public TodosController(ITodoRepo _db)
+        private readonly ITodoSurvice db;
+        public TodosController(ITodoSurvice _db)
         {
             db = _db;
         }
@@ -17,14 +20,66 @@ namespace Todo_List_Api.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var Todos = db.GetAll();
+            var todos = db.GetAll();
+            if (todos == null) { return NotFound(); }
 
-            if(Todos == null)
-            {
-                return NotFound();
-            }
-            return Ok(Todos);
+            return Ok(todos);
+
         }
+
+        [Route("{id:int}")]
+        [HttpGet]
+
+        public IActionResult GetById(int id)
+        {
+            var todo = db.GetById(id);
+            return Ok(todo);
+
+        }
+
+        [HttpPost]
+        public IActionResult Add(TodoCreateDto _dto)
+        {
+            int? x = db.Add(_dto);
+
+            //if (x == null) { return BadRequest("Can't Add this Todo"); }
+            if (ModelState.IsValid)
+            {
+                //to display the name of the todo 
+                var todo = db.GetById(x.Value);
+                return CreatedAtAction(nameof(GetById), new { id = x }, new { Message = $"{todo.Name} todo Successfully Created" });
+
+            }
+            return BadRequest("Can't Add this Todo");
+
+        }
+
+
+        [HttpPut("{id:int}")]
+        public IActionResult Update(int id, TodoUpdateDto _dto)
+        {
+            bool UpdatedTodo = db.Update(id, _dto);
+
+            if (UpdatedTodo == false) { return NotFound($"The {_dto.Name} is not found"); }
+            var todo = db.GetById(id);
+            return Ok($"{todo.Name} Successfully Updated !");
+
+
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            //store the value to display it after deleted
+            var deletedTodo = db.GetById(id);
+            bool todo = db.Delete(id);
+            if (todo == false) { return NotFound(); }
+
+            return Ok($"{deletedTodo.Name} Deleted Successfully");
+
+
+        }
+
 
 
     }

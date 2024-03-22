@@ -31,17 +31,24 @@ namespace TodoList.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DeadLine")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("DATEADD(hour, 2, GETDATE())");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.ToTable("Todos");
 
@@ -49,23 +56,23 @@ namespace TodoList.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            DeadLine = new DateTime(2024, 3, 22, 16, 51, 23, 907, DateTimeKind.Local).AddTicks(3924),
-                            Name = "Models",
-                            description = "Models for Every Entity"
+                            DeadLine = new DateTime(2024, 3, 23, 11, 56, 57, 586, DateTimeKind.Local).AddTicks(4695),
+                            Description = "Models for Every Entity",
+                            Name = "Models"
                         },
                         new
                         {
                             Id = 2,
-                            DeadLine = new DateTime(2024, 3, 23, 16, 51, 23, 907, DateTimeKind.Local).AddTicks(3976),
-                            Name = "Views",
-                            description = "Views for Every Controller"
+                            DeadLine = new DateTime(2024, 3, 24, 11, 56, 57, 586, DateTimeKind.Local).AddTicks(4744),
+                            Description = "Views for Every Controller",
+                            Name = "Views"
                         },
                         new
                         {
                             Id = 3,
-                            DeadLine = new DateTime(2024, 3, 24, 16, 51, 23, 907, DateTimeKind.Local).AddTicks(3980),
-                            Name = "Validations",
-                            description = "Validate User input"
+                            DeadLine = new DateTime(2024, 3, 25, 11, 56, 57, 586, DateTimeKind.Local).AddTicks(4748),
+                            Description = "Validate User input",
+                            Name = "Validations"
                         });
                 });
 #pragma warning restore 612, 618

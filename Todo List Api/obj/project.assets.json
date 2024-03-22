@@ -1578,6 +1578,19 @@
           }
         }
       },
+      "TodoList.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TodoList.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoList.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoList.BL.dll": {}
+        }
+      },
       "TodoList.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4488,6 +4501,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "TodoList.BL/1.0.0": {
+      "type": "project",
+      "path": "../TodoList.BL/TodoList.BL.csproj",
+      "msbuildProject": "../TodoList.BL/TodoList.BL.csproj"
+    },
     "TodoList.DAL/1.0.0": {
       "type": "project",
       "path": "../TodoList.DAL/TodoList.DAL.csproj",
@@ -4498,6 +4516,7 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "TodoList.BL >= 1.0.0",
       "TodoList.DAL >= 1.0.0"
     ]
   },
@@ -4528,6 +4547,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj": {
+              "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj"
+            },
             "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj": {
               "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj"
             }

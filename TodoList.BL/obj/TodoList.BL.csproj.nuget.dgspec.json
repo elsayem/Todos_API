@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.PL\\TodoList.BL.csproj": {}
+    "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj": {}
   },
   "projects": {
-    "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.PL\\TodoList.BL.csproj": {
+    "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.PL\\TodoList.BL.csproj",
+        "projectUniqueName": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj",
         "projectName": "TodoList.BL",
-        "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.PL\\TodoList.BL.csproj",
+        "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\TodoList.BL.csproj",
         "packagesPath": "C:\\Users\\ams15\\.nuget\\packages\\",
-        "outputPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.PL\\obj\\",
+        "outputPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ams15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj": {
+                "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj",
+        "projectName": "TodoList.DAL",
+        "projectPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\TodoList.DAL.csproj",
+        "packagesPath": "C:\\Users\\ams15\\.nuget\\packages\\",
+        "outputPath": "E:\\Software Engineering\\ITI\\.Net\\N - Tier Projects\\Todo-Api\\Todo List Api\\TodoList.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ams15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +98,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

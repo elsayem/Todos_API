@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TodoList.DAL.Configrations;
 using TodoList.DAL.Data.Models;
 
 namespace TodoList.DAL.Data.Context
@@ -23,25 +24,25 @@ namespace TodoList.DAL.Data.Context
                 new Todo {
                     Id = 1,
                     Name = "Models",
-                    description = "Models for Every Entity",
+                    Description = "Models for Every Entity",
                     DeadLine = DateTime.Now.AddDays(1)
                 },
                 new Todo {
                     Id = 2,
                     Name = "Views",
-                    description = "Views for Every Controller",
+                    Description = "Views for Every Controller",
                     DeadLine = DateTime.Now.AddDays(2)
                 },                new Todo {
                     Id = 3,
                     Name="Validations",
-                    description = "Validate User input",
+                    Description = "Validate User input",
                     DeadLine = DateTime.Now.AddDays(3)
                 }
 
             };
 
             modelBuilder.Entity<Todo>().HasData(Todos);
-
+            new TodoTypeConfigrations().Configure(modelBuilder.Entity<Todo>());
         }
 
     }
