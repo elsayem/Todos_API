@@ -40,21 +40,16 @@ namespace Todo_List_Api.Controllers
         [HttpPost]
         public IActionResult Add(TodoCreateDto _dto)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                int? x = db.Add(_dto);
+                return BadRequest();
 
-                //to display the name of the todo
-                var todo = db.GetById(x.Value);
-                return CreatedAtAction(nameof(GetById), new { id = x }, new { Message = $"{todo.Name} todo Successfully Created" });
-
-            }
-            else
-            {
-                //return BadRequest("Can't Add this Todo");
-                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-                return BadRequest(new { Message = "Validation errors occurred", Errors = errors });
-            }
+            }          
+           
+            int? x = db.Add(_dto);
+            //to display the name of the todo
+            var todo = db.GetById(x.Value);
+            return CreatedAtAction(nameof(GetById), new { id = x }, new { Message = $"{todo.Name} Successfully Created" });
 
         }
 
