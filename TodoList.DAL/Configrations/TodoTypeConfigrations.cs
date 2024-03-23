@@ -17,7 +17,7 @@ namespace TodoList.DAL.Configrations
             builder.HasKey(t => t.Id);
 
             //Index
-            builder.HasIndex(x => x.Name).IsUnique(); //to make Only Unique Names
+            builder.HasIndex(x => x.Name).IsUnique(); //to make Only Unique Names   
 
             //Constraints
             builder.Property(t =>t.Name).HasMaxLength(50).IsRequired();

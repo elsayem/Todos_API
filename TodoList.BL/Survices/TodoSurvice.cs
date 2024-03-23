@@ -60,7 +60,7 @@ namespace TodoList.BL.Survices
             todo.Name = _dto.Name;
             todo.Description = _dto.Description;
             todo.DeadLine = _dto.DeadLine;
-
+            db.Update(todo);
             return true;
 
 

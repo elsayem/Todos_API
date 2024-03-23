@@ -40,17 +40,21 @@ namespace Todo_List_Api.Controllers
         [HttpPost]
         public IActionResult Add(TodoCreateDto _dto)
         {
-            int? x = db.Add(_dto);
-
-            //if (x == null) { return BadRequest("Can't Add this Todo"); }
             if (ModelState.IsValid)
             {
-                //to display the name of the todo 
+                int? x = db.Add(_dto);
+
+                //to display the name of the todo
                 var todo = db.GetById(x.Value);
                 return CreatedAtAction(nameof(GetById), new { id = x }, new { Message = $"{todo.Name} todo Successfully Created" });
 
             }
-            return BadRequest("Can't Add this Todo");
+            else
+            {
+                //return BadRequest("Can't Add this Todo");
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                return BadRequest(new { Message = "Validation errors occurred", Errors = errors });
+            }
 
         }
 
@@ -60,7 +64,8 @@ namespace Todo_List_Api.Controllers
         {
             bool UpdatedTodo = db.Update(id, _dto);
 
-            if (UpdatedTodo == false) { return NotFound($"The {_dto.Name} is not found"); }
+            if (UpdatedTodo == false)
+            { return NotFound($"The {_dto.Name} is not found"); }
             var todo = db.GetById(id);
             return Ok($"{todo.Name} Successfully Updated !");
 
@@ -70,12 +75,13 @@ namespace Todo_List_Api.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            //store the value to display it after deleted
-            var deletedTodo = db.GetById(id);
+            
+             
             bool todo = db.Delete(id);
-            if (todo == false) { return NotFound(); }
+            if (todo == false) { return NotFound($"The Id is not Exist !"); }
 
-            return Ok($"{deletedTodo.Name} Deleted Successfully");
+
+            return Ok($"Deleted Successfully");
 
 
         }
