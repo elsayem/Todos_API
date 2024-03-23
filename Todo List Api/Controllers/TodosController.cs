@@ -60,7 +60,7 @@ namespace Todo_List_Api.Controllers
             bool UpdatedTodo = db.Update(id, _dto);
 
             if (UpdatedTodo == false)
-            { return NotFound($"The {_dto.Name} is not found"); }
+            { return NotFound($"The ID is not found"); }
             var todo = db.GetById(id);
             return Ok($"{todo.Name} Successfully Updated !");
 

@@ -21,7 +21,7 @@ namespace TodoList.DAL.Validators
             var s = db.Todos.FirstOrDefault(t => t.Name == name);
             if (s != null)
             {
-                return new ValidationResult("This Todo already exists !");
+                return new ValidationResult("This Todo Name already exists !");
             }
             return ValidationResult.Success;
 
